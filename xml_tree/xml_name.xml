@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This .xml file is used to set the name of items of class xmlTree. -->
+<!-- 
+  - (1) The basic structure is a multi-tree, whose content's id is maked up 
+  -		by all index of contents in the list from root to it.
+  -		such as root item - (0x0), content1 of content2 of root - (0x12)
+  -
+  -	                          root(0x0)
+  -	             |                              |
+  -           content1(0x1)                  content2(0x2)		...
+  -	    |                 |	             |               |
+  -	content1(0x11)  content2(0x21)  content1(0x12)  content2(0x22)	...
+  -
+  - (2) Note:
+  -
+  -		1. Since the id is uint32_t, each layer can only contains 15 contents, and the max layer is 8.
+  -
+  -		2. "Content" have attribute: (1) index - index of content in its parent's child list, 
+  -         (2) name - name of content.
+  -
+  -		3. Content can have multi Content, but the index of them should be different.
+  -->
+  
+  
+<root>
+<Content index="1" name="class">
+<Content index="1" name="student">
+<Content index="1" name="weight"></Content>
+<Content index="2" name="height"></Content>
+</Content>
+</Content>
+</root>

@@ -1,0 +1,141 @@
+# depslib dependency file v1.0
+1492913134 source:f:\ccode\c++\littlecode\xmlwriterreader\xmlwriterreader.cpp
+	"xmlWriterReader.hpp"
+	<iostream>
+	"rapidxml/rapidxml.hpp"
+	"rapidxml/rapidxml_utils.hpp"
+	"rapidxml/rapidxml_print.hpp"
+
+1492912383 f:\ccode\c++\littlecode\xmlwriterreader\xmlwriterreader.hpp
+	<string.h>
+	<stdio.h>
+	"rapidxml/rapidxml.hpp"
+	"rapidxml/rapidxml_utils.hpp"
+	"rapidxml/rapidxml_print.hpp"
+
+1242150378 f:\ccode\c++\littlecode\xmlwriterreader\rapidxml\rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1242398962 f:\ccode\c++\littlecode\xmlwriterreader\rapidxml\rapidxml_utils.hpp
+	"rapidxml.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<stdexcept>
+
+1492066429 f:\ccode\c++\littlecode\xmlwriterreader\rapidxml\rapidxml_print.hpp
+	"rapidxml.hpp"
+	<ostream>
+	<iterator>
+
+1493427349 source:f:\ccode\c++\littlecode\xmlwriterreader - 副本\main.cpp
+	"xml_toolbox.hpp"
+
+1493428561 f:\ccode\c++\littlecode\xmlwriterreader - 副本\xml_toolbox.hpp
+	<string.h>
+	<stdio.h>
+	<map>
+	<algorithm>
+	"rapidxml/rapidxml.hpp"
+	"rapidxml/rapidxml_utils.hpp"
+	"rapidxml/rapidxml_print.hpp"
+
+1242150378 f:\ccode\c++\littlecode\xmlwriterreader - 副本\rapidxml\rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1242398962 f:\ccode\c++\littlecode\xmlwriterreader - 副本\rapidxml\rapidxml_utils.hpp
+	"rapidxml.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<stdexcept>
+
+1492066429 f:\ccode\c++\littlecode\xmlwriterreader - 副本\rapidxml\rapidxml_print.hpp
+	"rapidxml.hpp"
+	<ostream>
+	<iterator>
+
+1493895184 source:f:\ccode\c++\littlecode\xmlwriterreader2\main.cpp
+	"xml_tree.hpp"
+
+1493894961 f:\ccode\c++\littlecode\xmlwriterreader2\xml_toolbox.hpp
+	<string.h>
+	<stdio.h>
+	<vector>
+	<map>
+	<set>
+	<list>
+	<algorithm>
+	"rapidxml/rapidxml.hpp"
+	"rapidxml/rapidxml_utils.hpp"
+	"rapidxml/rapidxml_print.hpp"
+
+1242150378 f:\ccode\c++\littlecode\xmlwriterreader2\rapidxml\rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1242398962 f:\ccode\c++\littlecode\xmlwriterreader2\rapidxml\rapidxml_utils.hpp
+	"rapidxml.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<stdexcept>
+
+1492066429 f:\ccode\c++\littlecode\xmlwriterreader2\rapidxml\rapidxml_print.hpp
+	"rapidxml.hpp"
+	<ostream>
+	<iterator>
+
+1493895446 f:\ccode\c++\littlecode\xmlwriterreader2\xml_tree.hpp
+	<string.h>
+	<stdio.h>
+	<vector>
+	<map>
+	<set>
+	<list>
+	<algorithm>
+	"rapidxml/rapidxml.hpp"
+	"rapidxml/rapidxml_utils.hpp"
+	"rapidxml/rapidxml_print.hpp"
+
+1493895184 source:f:\ccode\c++\littlecode\xml_tree\main.cpp
+	"xml_tree.hpp"
+
+1493951906 f:\ccode\c++\littlecode\xml_tree\xml_tree.hpp
+	<string.h>
+	<stdio.h>
+	<vector>
+	<map>
+	<set>
+	<list>
+	<algorithm>
+	"rapidxml/rapidxml.hpp"
+	"rapidxml/rapidxml_utils.hpp"
+	"rapidxml/rapidxml_print.hpp"
+
+1242150378 f:\ccode\c++\littlecode\xml_tree\rapidxml\rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1242398962 f:\ccode\c++\littlecode\xml_tree\rapidxml\rapidxml_utils.hpp
+	"rapidxml.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<stdexcept>
+
+1492066429 f:\ccode\c++\littlecode\xml_tree\rapidxml\rapidxml_print.hpp
+	"rapidxml.hpp"
+	<ostream>
+	<iterator>
+

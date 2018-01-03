@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This .xml file is used to enter batches of value to xmlTree. -->
+<!-- 
+  - (1) Use it together with "xml_name.xml".
+  -
+  - (2) Note:
+  -
+  -		1. "batch" is the basic unit, which contains multi "member",
+  -         each batch should contain the attribute "index".
+  -
+  -     2. the attribute "name" of "member" should be the same as 
+  -        the name in "xml_name.xml".
+  -
+  -		3. the attribute "type" can only be these formats:
+  -		   (1) int (2) string (3) double
+  -
+  -->
+ 
+  
+<root>
+
+<Batch index="1">
+<Member name="class" type="string">Class 1</Member>
+<Member name="student" type="string">Leo</Member>
+<Member name="weight" type="double">50.0</Member>
+<Member name="height" type="double">1.65</Member>
+</Batch>
+
+<Batch index="2">
+<Member name="class" type="string">Class 1</Member>
+<Member name="student" type="string">Neo</Member>
+<Member name="weight" type="double">50.0</Member>
+<Member name="height" type="double">1.70</Member>
+</Batch>
+
+</root>
